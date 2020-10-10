@@ -88,3 +88,19 @@
   height: 1.25em;
   font-size: 14px;
 }
+
+.linechart {
+  border-radius: 2px;
+  box-shadow: 0 0 4px #282c34;
+}
+
+.tooltip-format {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tooltip-h3 {
+  text-align: left;
+  color: #61dafb;
+}

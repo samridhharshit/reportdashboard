@@ -4,7 +4,9 @@ import LineChart from "../modules/lineChart";
 export default function Container() {
     return (
         <div className="main-container">
-            <LineChart />
+            <div className="container-fluid">
+                <LineChart />
+            </div>
         </div>
     )
 }

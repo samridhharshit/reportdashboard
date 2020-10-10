@@ -8,7 +8,7 @@ function App() {
     return (
         <>
             <NavigationBar />
-            <div className='container App'>
+            <div className='App'>
                 <Router>
                     <Switch>
                         <Route exact path="/" component={Container} />
