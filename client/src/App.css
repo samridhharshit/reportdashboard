@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+
+/*#####################################################################*/
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar-brand > img {
+  height: 32px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+.nav-item > .nav-link {
+  padding: .025rem;
+}
+
+.navbar-text {
+  display: flex;
+  justify-content: space-around;
+}
+
+.username {
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  border: 1px solid gray;
+  display: inline-block;
+}
+
+.username:after {
+  content: "rx";
+  /* position: absolute; */
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  left: -1px;
+  top: 7px;
+  /* background: gold; */
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.25em;
+  font-size: 14px;
+}
